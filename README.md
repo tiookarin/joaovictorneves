@@ -195,16 +195,4 @@ python demos/mission_critical_demo.py --robots 3 --target 10,10 --plot --save
 Licença
 -------
 Este projeto segue a licença MIT. Veja o arquivo `LICENSE` para detalhes.
-
-Contato
--------
-- Issues / Discussões: abra em GitHub (quando o repositório for criado)
-- Para integração direta com IBM Quantum: configure credenciais via `config/ibm_credentials.json` (não commitá-las).
-
----
-
-Este README resume as partes essenciais de cada módulo e as ações necessárias para executar, testar e estender o projeto. Se quiser, eu posso:
-- Gerar exemplos de notebooks adicionais (QNN training, QAOA visualization).
-- Substituir fallbacks por integrações Qiskit completas no seu ambiente (se informar que Qiskit está disponível no runner).
-- Criar scripts de deploy ROS (launch/params) mais específicos para sua topologia de robôs.
 ```
